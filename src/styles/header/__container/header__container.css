@@ -1,0 +1,19 @@
+@import url(./__logo/header__logo.css);
+@import url(./__mini-container/header__mini-container.css);
+@import url(./__tel/header__tel.css);
+.header__container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #fff;
+   padding-left: 9%;
+   padding-right: 9%;
+}
+
+@media all and (max-width: 1300px) {
+  .header__container {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}

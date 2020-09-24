@@ -1,0 +1,11 @@
+@import url(./__first-block/info__first-block.css);
+@import url(./__second-block/info__second-block.css);
+@import url(./__third-block/info__third-block.css);
+@import url(./__open/info__open.css);
+.info__item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 20px 30px;
+  background-color: #f3f6f7;
+}

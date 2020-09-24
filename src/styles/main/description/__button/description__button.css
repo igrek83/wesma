@@ -1,0 +1,21 @@
+.description__button {
+  width: 250px;
+  height: 50px;
+  font-size: 16px;
+  color: #62b3dd;
+  font-weight: 700;
+  border: 1px solid #62b3dd;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.description__button:focus {
+  border: 1px solid rgb(25, 25, 218);
+  color: rgb(25, 25, 218);
+}
+
+.description__button:hover {
+  opacity: .7;
+}

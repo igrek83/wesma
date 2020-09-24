@@ -1,0 +1,11 @@
+.link:hover {
+  cursor: pointer;
+  opacity: .8;
+  outline: none;
+}
+
+.link:focus {
+  cursor: pointer;
+  opacity: .8;
+  outline: none;
+}

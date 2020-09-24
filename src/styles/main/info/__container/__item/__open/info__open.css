@@ -1,0 +1,17 @@
+@import url(./__open-top/info__open-top.css);
+@import url(./__open-top/info__open-bottom.css);
+.info__open {
+  position: absolute;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #f3f6f7;
+  bottom: -15px;
+  left: 48%;
+  cursor: pointer;
+}
+
+.info__open:hover {
+  background: #b4b6b6;
+}

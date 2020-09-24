@@ -1,0 +1,12 @@
+.info__title {
+  font-size: 16px;
+  line-height: 26px;
+  color: #bdc4c7;
+  margin-left: 20px;
+}
+
+@media all and (max-width: 1180px) {
+  .info__title {
+    margin-left: 40px;
+  }
+}

@@ -1,0 +1,5 @@
+@import url(./__figure/info__figure.css);
+@import url(./__second-figure/info__second-figure.css);
+.info__card {
+  display: flex;
+}

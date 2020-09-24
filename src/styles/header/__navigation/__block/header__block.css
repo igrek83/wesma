@@ -1,0 +1,19 @@
+@import url(./__foto/header__foto.css);
+@import url(./__button/header__button.css);
+@import url(./__button/header__button_color_white.css);
+@import url(./__button/header__button_color_bordo.css);
+@import url(./__button/header__button_color_blue.css);
+.header__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+
+@media all and (max-width: 1140px) {
+  .header__block {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

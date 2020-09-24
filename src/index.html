@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="test">
+   <meta name="author" content="Igor Golanov">
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+  <link rel="shortcut icon" href="<%=require(`./images/favicon.ico`).default%>" type="image/x-icon">
+  <title>Wesma-test</title>
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <nav class="header__navigation">
+        <ul class="header__first-menu">
+          <li class="bottom link">ЧАСТНЫМ КЛИЕНТАМ</li>
+          <li class="link">КОМПАНИЯМ</li>
+        </ul>
+        <ul class="header__second-menu">
+          <li class="bottom link">О компании ВСК</li>
+          <li class="bottom link">VSK Today</li>
+          <li class="link">Агентский портал</li>
+        </ul>
+        <div class="header__block">
+          <img src="<%=require(`./images/semen.jpg`).default%>" alt="foto" class="header__foto bottom">
+          <span class="bottom">Семен Иванов</span>
+          <button type="button" class="header__button header__button_color_write link">Выйти</button>
+        </div>
+      </nav>
+      <div class="header__container">
+        <img src="<%=require(`./images/logo.png`).default%>" alt="logo" class="header__logo">
+        <div class="header__mini-container">
+          <select class="header__select link">
+            <option value="Москва">Москва</option>
+            <option value="Рязань">Рязань</option>
+            <option value="Казань">Казань</option>
+            <option value="Брянск">Брянск</option>
+          </select>
+          <button type="button" class="header__button header__button_color_blue link bottom">Офисы</button>
+        </div>
+        <span class="header__tel">+7 495 784 77 00</span>
+        <div class="header__mini-container">
+          <button type="button" class="header__button header__button_color_bordo link bottom">Страховой случай?</button>
+          <button type="button" class="header__button header__button_color_blue link">Активировать полис</button>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="cabinet">
+        <div class="cabinet__sky"></div>
+        <div class="cabinet__block">
+          <h3 class="cabinet__name">Здравствуйте, Семен Александрович!</h3>
+          <span class="cabinet__greeting">Добро пожаловать в личный кабинет.</span>
+        </div>
+        <img src="<%=require(`./images/semen.jpg`).default%>" alt="foto" class="cabinet__foto">
+      </section>
+      <section class="info">
+        <nav class="info__navigation">
+          <div class="info__block" tabindex="1">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="31"
+              viewBox="0 0 28 31" class="info__image">
+              <image id="raster" width="28" height="31"
+                xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAfCAYAAAD0ma06AAADEklEQVRIiZ1XPWsVQRQ9b9WYwqBFwEoMKihamcaAlWKhkE5UEAxo4Uet+AdMY8CPQgsVC7GxMUXAJiRYmFgIfoCCRsQHWmkVUdSg3iOz+97unbl3XsSFy1vm45w5587OndfCzTcwD9mElO/9IE9BeBjkdgj7QGlDOA3hNVDel+NEEP1S0EraLWFNVr9vgnAWlKEOeQ1WgXAJIg9BTpS/KUE0VlBYMmiyAuQUyCHVli5oNcj9EM6APKjHtKgW2FlsQ0j9Uk86AHKHQ1IDqCggvA7hqogsSY9SmKy+atptJtn86lgPcqRWZPs7hJGVkXWDxsoUxAJvaPXoLzJWduOrsdLkMgZukX9MH6McphshAmybiZ7KuO+Xo1rlMLUSEfGFLIkD2rFyLDvHKjTRNiTOqksrm763pj8iJFUKU0CMNxPgAiTf2xKEdw2OwigyVnZjEuRFF8AhBnkSlJeZPqWwd0xmASIrJfw+sqrSXeoBBZXNhCcg3xkAe3S1/yXnhWOjF5fzVkr3/bbfzwhf7VJnU0jdfgvks9hK0WNfgbziKks2XZFbSbJBfoN82lXkHF1zIL9nMRS+n8PYlhUgj0B41LerjDEIj4OhMBt34rzj6gtVoeviuQUie0HugXAfRAa7Y1qqmjtVfhHkLETmIJwvXRERLWKlYl8D8gzIEyC3NYOkWZ21MlWwrlOEu4X4E4g7IC4B/FzlsJI+AvI1hBM1WW9gx35n01X18TzIBRCj4UALCreCnAY54Exo1PUoqrbN5C4ovx+Kc9g04zVZBsBcFzxil1TfJNAH4lwgHLaDFajXlyXxIjpYdhbLWplT5NpnrKyikTtQNB+sBf5/K722sn0xEM6bAcvZmWvXBOqa1KjETPgsjkFCHYtPeu8Smyf1VEVWfgRxGsDZoFDKw7k8XTgK8l6rvq3lCDwSQ/oDxBSIQyA3A7gRip4+aQLxA0gZ4fa8C2S4CA93DoONEK7N2PgN5AcQCwCeg3gMIqTqZ6W0eTShtjJc9cJ5GKqA7u+HlB9x+DcVVC2B/BJtvNjK+AHwF9M3cWuBLF5QAAAAAElFTkSuQmCC" />
+            </svg>
+            <h3 class="info__title">ИНФОРМАЦИЯ</h3>
+          </div>
+          <div class="info__block" tabindex="2">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="32"
+              viewBox="0 0 22 32" class="info__image">
+              <image id="raster-1" width="22" height="32"
+                xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAgCAYAAAAWl4iLAAADU0lEQVRIiY2WX6gVVRjFf3OcDE6UEheUbkUGRvYSJPTSQ1IRCEEvRlDeIIKg0KcgyJfMB18KISOivxAR1UOUEAhBgtEffCmisr+UWl1CfEjMS1c5a8Xs2TOz58w+Vw9s9sxmn7XX961vfXsKXvlxHfAsMCb3k8EGqZsV54ly8xIT7SqBLcBCBrIGSofcgbYHDudC/roCLhKo48CpLOjgkMjWap7XI83HtVVlAnoC2AicxxVwAj7NVNPr4X2MvFjIa6r3FHgO2AosBtQAmmM+C1zXFdJlTQQpcCXegUFOG7AUpAu/TUehfgSjFcUahpt/zhxY9oE5jjnVC3u2WAnbRjzPNwTKhO0J8Ebs8wMmg3x2o+iL9xfy2k68mtUc8lbsxYFYM+p1iv01SOO+eHV5jbEP5HOs7Cimo0nmMg80cNd32EeQr8W+E3lUrHBgnYpcJfQF2431TPLH25Bew7oUeQ778gFrKwHuM/0D+WPsb5GfR74E+W7sw8ifF/KmuL9afwx5H/KqFKfMuOt9rAeRlxMmryMvIB0tpHuxfkVag3QaaT/WOqRdbQd0ZZC+u84iPxJArTuQHkd6D2khuusm5J/iof9g740M3+kL3eS4q8uj2KeRb0X+JFu71ghpdcz3ltg7jsWD1naM++4aRzeNZrhr2jAbkEusf7EqMn/3U9Ftfjk+L89w17QbKxsfRL4S+Rfsp5p9oyS/XyK/gIPS+2a4a9gv7Luw90emXySpaJP+ady8I+ROF3ZXItbhuDY/rAp5fZy/wf6vS0GGcepK+y3sV3Go46eb22eUhHcf0g1IhyLjM+1tkWPbiX4wzg8j355JRWh7h7BvRD5S1KJkym2wNhfXV7dXGvRSQd2odX9RR/DnCoJVw2FPJXp9P57E3Z1RDuvVt8RDXgxlVLvxCuTt2AWykKqw38U+h31VPOgD7B+ATTVj+2fkpSS0e3DoYL/VANqB9RDytuAw+wkcGtRHoVnZv2NvwJ4ATwLngO8L9nzWfioVk5mfTd2Y+GqsD5E3t3Vuv43Znl6frfMG9Tr7fVsAbbthKK8HgJuHwBd2VzpewiEF1fNO7M3Ao8D1KXAQ7yLd1awtY+/Gfg77DWAJ+Gr6e7K8SHdNDd7EKIIOf8D/jOU1b/bieIQAAAAASUVORK5CYII=" />
+            </svg>
+            <h3 class="info__title">МОИ ПОЛИСЫ</h3>
+          </div>
+          <div class="info__block" tabindex="3">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28"
+              viewBox="0 0 28 28" class="info__image">
+              <image id="raster-2" width="28" height="28"
+                xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAADAklEQVRIiY1WO2sWQRQ9u3wYAgEfnaX/QAWx0kJEsI9YBtIoCKKiWAkiWIgINhZRBEFjgv9AMCCCIgqfgpFYCCIRIzYBI0jAnCMzO7s7j/slLgz7uLNz5px77t2tcPcTkkMKI7qmOzOcu/sBqNugpkGON8/DnOhcxe+S7wYlGFIwawPSAMIcpMl0U+mo4lgT31f3YPFF+XIEOoA0B0Zg5cIt2EYerxEjxgvDZNqAtcwMVhHwaVDbIF2IY00OS8lSmVxOHBgdM/Zgcc6iHFakPBj5F9QEyLU2Xv+nlBEzY2ORnEHKCtJFSDsgXYo3X2FmKZWydVU/qWEmTnY5yhgVrmzvVcbr3pVh50ic2jNL87UWG6TLz6iURKMeLWNmkHSBG5CWEymNxS3QumFVODKAoWW22MUpQXoEaT5itgrpm8U6BUUraSJlyUx6CWkvpCeQXoD6CuoxpB+QLofY9mYubdCuLO4sxjsJRV1Yfx3SHpAroMZArofYWOVjvALyWmoQwzTS77qUMVg/3eUYqHPhej2S0l2PgzprsiqfzdSbyOgGIS1AmoZ03c4R/0A64o1ELZfxrqnMOvmdS3uD5Lui3kK4FwzyK955xSRXHyC5efedbNkaAQxTrrc6SR/2zIouchDUPKifUCsp03qjl/QVpM+QrkKYyNZwzKaaRu5d6uXYSvsJUO+N5244SVeKmL9HBNbVIY7D1ZH5QjdeQ3wO6VhFnQ+xXZBuQtrt81u+U4C1hT+EdBRN8Rqgvm9+hPSmkp42snkZT4C+QX+BdArSkg3WfmvbOrw1DItzP6hnEHcWn54AHDXmkyDPgDrcN/IuNgtxCgzMzNbWjIYpDaYKvbIvC8fskCF/YIYNa40ccCSo8RU4APpvXvwsy1kqZXtfG7R7ULPQTWOZBkmAC4YWqLRaKZHSGMgMYszp6WaSpgsPq9y9JfAsmDOzQHuWeQ7ThTmiZLp2tYmM0W9Sz9IxHCFX9BM7BAvQjNnWUranNIfpT2ya0wb0O6QHtvU3l9IfAP4BHkQcbDtiK18AAAAASUVORK5CYII=" />
+            </svg>
+            <h3 class="info__title">СПЕЦПРЕДЛОЖЕНИЯ</h3>
+          </div>
+          <div class="info__block" tabindex="4">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"
+              viewBox="0 0 32 32" class="info__image">
+              <image width="32" height="32"
+                xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAD2klEQVRYha2XP4xVRRTGf29ZEjYsayEN4roaA0YJK4EYG4wFlYVaGE1MjKWWWpilsVILAROwFFuFBCosoKFTEyURRUEIGuNmI9uoibsbJFkzH5m5c+femTl3H4UvOXkzZ2bOn++cM3fOiJM3yH4SyDPUjcO/7sfpOaRnkJ5AmsPpvrj2D84tIl3D6Suk8zj9jRw4NRTHI8W5c0FuboCt+HGkt5FeRdrWCItUjV3LW8HpNM6dQLrR7hs5152JBkwU7pfKjyD9jPQGYlvDpzOgIlpjZpDeRLqO9GFQXu1VYUASECaPgH4AFiql9PaVSDjToMMj6XucHjbWogFBcBsD7UVcQTzZKRyijdDIjNqHdAVpT2lwicADiG9CrPtCbCNOh0QUc3Gch6+Ne7d/BvEt0o7+3hGfXO97chNpl+ldgjck0lqWkE1CreM0meYp4113vknUmzg91iGgBP0xYFeOiEVh7ZIRz+8G8yDjsTsmd5sDgTmLeOceYG+FrFc8pz/785FpTKIFpAcbAxrrP6g3DaDQCJ00Mn9LUu4Gzuay32sRmAa91hVBv8TKeSWkmtv1jlGqvI601SPwAgEJA3ZqBRuSBbnFa/ibEM97xYeGlQ7SrFFys5n3VRhMBw75stmbQ50g94nmPyzOEHK59G4knUPab3jsnTyItNkwYH4S/OVTLZxFvIVYNtaGYF0Y8JJ4+XyMeLlAeodHYLqA/V+kVzpF5Z1fKxkuubR3Ocq8jZjqIT0zEUqqOniPiTSu5KrMr2jCV8FKEfsppDNIOw1PMuFjS647uzPKnCoSfsV7f6v8QMRYvRSv1xVDyeV4m/X5R3HaX+8NH6EDqdRzuuUNuIp0wCg/f+Cp6lBXcgsF70Wk3YOIdc716aoPwcV6oyGkF+uRtJTHNqwt1TIMyh296L08h9BgohT84Ywf40Aee5r7hS+8AatIn5cPiaGSG1Zg7W2feFi8z0BrbWK8OyykX3Jp/F+FkNMdC7FKcccLOlsD/Jv+eH2oLLkkYLOhaPuGDuSx/wix1DzJjlzqe/IrTo/mDUXzrCoaijVcfDd2T6717p3gsNEIBv7SVUv3IGnpWaQ7ZuLlNI10CumhSKfyG7Uqt1b57agj8SaK2P+B9DRirVKelxyxU1pELMbxONhXo+zlJIPWgPzO/hHJ9wQ//Y8l5/uMeX/xZKXRS8JSyG84zSMdM9YGPjJlb5l4R4F9oN+rriohYJVc8++vW9/NfBoTb7zHjYJVxMnYRR+unEyXg6+C97/OO9Z+C52319tje34QF4yaw7leex5K+RrSl0gXcPrLVNzzHuAuwGxtr4LYTZAAAAAASUVORK5CYII=" />
+            </svg>
+            <h3 class="info__title">ЗАКАЗАТЬ ПОЛИС</h3>
+          </div>
+        </nav>
+        <div class="info__container">
+          <h3 class="info__name info__name_theme_end">АВТОСТРАХОВАНИЕ</h3>
+          <div class="info__item">
+            <div class="info__first-block">
+              <h4 class="info__item-name">ОСАГО</h4>
+              <span class="info__item-span info__item-span_theme_left">25.07.2015 - 24.07.2016</span>
+              <span class="info__item-span info__item-span_theme_left">1233GP32132112</span>
+            </div>
+            <div class="info__second-block">
+              <span class="info__name">ИНФОРМАЦИЯ ОБ АВТОМОБИЛЕ</span>
+              <span class="info__name ">ОЦЕНОЧНАЯ СТОИМОСТЬ</span>
+              <div class="info__mini-block">
+                <span class="info__name">ТАРИФ:</span>
+                <span class="info__price">12500</span>
+                <span class="info__rub">РУБ</span>
+              </div>
+            </div>
+            <div class="info__third-block">
+              <div class="info__mini-container">
+                <span class="info__item-span info__item-span_theme_bottom">ACURA MOX универсал(5 дв.)</span>
+                <span class="info__item-span info__item-span_theme_bottom">3.5 DI VTEC 290 л.с</span>
+                <span class="info__item-span info__item-span_theme_bottom">Автоматическая КП</span>
+              </div>
+              <div class="info__mini-container">
+                <span class="info__item-span">3 140 000 руб.</span>
+              </div>
+              <button type="button" class="info__button">Активировать полис</button>
+            </div>
+          </div>
+          <div class="info__mini-container info__mini-container_backgroud_white">
+            <span class="info__name"></span>
+            <span class="info__item-span info__item-span_theme_bottom"></span>
+            <span class="info__item-span info__item-span_theme_bottom"></span>
+            <div class="info__open">
+              <div class="info__open-bottom"></div>
+            </div>
+          </div>
+        </div>
+        <div class="info__container">
+          <h3 class="info__name">ПУТЕШЕСТВИЯ</h3>
+          <div class="info__item">
+            <div class="info__first-block">
+              <h4 class="info__item-name">Пакет «Рекомендуемый»</h4>
+              <span class="info__item-span info__item-span_theme_left">25.07.2015 - 24.07.2016</span>
+              <span class="info__item-span info__item-span_theme_left">1233GP32132112</span>
+            </div>
+            <div class="info__second-block">
+              <span class="info__name">ИНФОРМАЦИЯ О ПУТЕШЕСТВИИ</span>
+              <span class="info__name">УСЛОВИЯ СТРАХОВКИ</span>
+              <div class="info__mini-block">
+                <span class="info__name">ТАРИФ:</span>
+                <span class="info__price">5147</span>
+                <span class="info__rub">РУБ</span>
+              </div>
+            </div>
+            <div class="info__third-block">
+              <div class="info__mini-container">
+                <span class="info__item-span info__item-span_theme_bottom">Англия</span>
+                <span class="info__item-span info__item-span_theme_bottom">1 путешествующий</span>
+              </div>
+              <div class="info__mini-container">
+                <div class="info__card">
+                  <div class="info__figure"></div>
+                  <span class="info__item-span info__item-span_theme_bottom">Защита от несчастного случая</span>
+                </div>
+                <div class="info__card">
+                  <div class="info__figure"></div>
+                  <span class="info__item-span info__item-span_theme_bottom">Расходы за причинение ущерба</span>
+                </div>
+                <div class="info__card">
+                  <div class="info__figure"></div>
+                  <span class="info__item-span info__item-span_theme_bottom">Багаж</span>
+                </div>
+                <div class="info__card">
+                  <div class="info__figure"></div>
+                  <span class="info__item-span info__item-span_theme_bottom">Страхование квартиры на время отсутствия</span>
+                </div>
+              </div>
+              <div class="info__card info__card_theme_end">
+                <div class="info__second-figure">
+                  <div class="info__first-figure"></div>
+                </div>
+                <span class="info__name">ПОЛИС АКТИВИРОВАН</span>
+              </div>
+            </div>
+          </div>
+          <div class="info__mini-container info__mini-container_backgroud_white">
+            <span class="info__name">Застрахованные</span>
+            <span class="info__item-span info__item-span_theme_bottom">Михалков Николай Александрович</span>
+            <span class="info__item-span info__item-span_theme_bottom">12.12.1990</span>
+            <div class="info__open">
+              <div class="info__open-top"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="description">
+        <div class="description__container">
+          <div class="description__item">
+            <img src="<%=require(`./images/23.png`).default%>" alt="image" class="description__image">
+            <span class="description__name">ИСТОРИЯ</span>
+            <span class="info__item-span info__item-span_theme_bottom">Более 23 лет успешной работы</span>
+            <span class="info__item-span info__item-span_theme_bottom">со дня основания</span>
+            <span class="info__item-span info__item-span_theme_bottom">11 февраля 1992 г.</span>
+          </div>
+           <div class="description__item">
+             <img src="<%=require(`./images/av.png`).default%>" alt="image" class="description__image">
+             <span class="description__name">Доверие</span>
+             <span class="info__item-span info__item-span_theme_bottom">Более 10 000 000 россиян</span>
+             <span class="info__item-span info__item-span_theme_bottom">и более 125 000 компаний</span>
+             <span class="info__item-span info__item-span_theme_bottom">выбрали ВСК</span>
+           </div>
+            <div class="description__item">
+              <img src="<%=require(`./images/aa.png`).default%>" alt="image" class="description__image">
+              <span class="description__name">Надежность</span>
+              <span class="info__item-span info__item-span_theme_bottom">«Исключительно высокий</span>
+              <span class="info__item-span info__item-span_theme_bottom">уровень надежности» A++</span>
+              <span class="info__item-span info__item-span_theme_bottom">по оценке рейтингового</span>
+              <span class="info__item-span info__item-span_theme_bottom">агенства «Эксперт РА»</span>
+            </div>
+             <div class="description__item">
+               <img src="<%=require(`./images/carta.png`).default%>" alt="image" class="description__image">
+               <span class="description__name">Масштаб</span>
+               <span class="info__item-span info__item-span_theme_bottom">Более 500 филиалов</span>
+               <span class="info__item-span info__item-span_theme_bottom">и отделений во всех</span>
+               <span class="info__item-span info__item-span_theme_bottom">субъектах РФ</span>
+             </div>
+        </div>
+        <button type="button" class="description__button">УЗНАЙТЕ БОЛЬШЕ О ВСК</button>
+        <div class="description__block">
+          <div class="description__mini-block">
+            <span class="description__name">Автомобиль</span>
+            <span class="info__item-span info__item-span_theme_bottom">Каско</span>
+            <span class="info__item-span info__item-span_theme_bottom">ОСАГО</span>
+            <span class="info__item-span info__item-span_theme_bottom">Зеленая карта</span>
+            <span class="info__item-span info__item-span_theme_bottom">ДГО</span>
+          </div>
+          <div class="description__mini-block">
+            <span class="description__name">Имущество</span>
+            <span class="info__item-span info__item-span_theme_bottom">Дом</span>
+            <span class="info__item-span info__item-span_theme_bottom">Отвествтвенность</span>
+            <span class="info__item-span info__item-span_theme_bottom">Квартира</span>
+          </div>
+          <div class="description__mini-block">
+            <span class="description__name">Здоровье</span>
+            <span class="info__item-span info__item-span_theme_bottom">Страхование от несчастных случаев</span>
+            <span class="info__item-span info__item-span_theme_bottom">ДМС</span>
+          </div>
+          <div class="description__mini-block">
+            <span class="description__name">Жизнь</span>
+            <span class="info__item-span info__item-span_theme_bottom">Выплата к сроку</span>
+            <span class="info__item-span info__item-span_theme_bottom">На дожитие</span>
+            <span class="info__item-span info__item-span_theme_bottom">Потеря кормильца</span>
+          </div>
+          <div class="description__mini-block">
+            <span class="description__name">Путешествия</span>
+            <span class="info__item-span info__item-span_theme_bottom">Россия и СНГ</span>
+            <span class="info__item-span info__item-span_theme_bottom">Выезд за рубеж</span>
+          </div>
+          <div class="description__mini-block">
+            <span class="description__name">Ипотека</span>
+            <span class="info__item-span info__item-span_theme_bottom">Жизнь и здоровье заемщика</span>
+            <span class="info__item-span info__item-span_theme_bottom">Страхование от невозврата ипотечного кредита</span>
+            <span class="info__item-span info__item-span_theme_bottom">Страхование приобретаемого жилья</span>
+            <span class="info__item-span info__item-span_theme_bottom">Титульное страхование</span>
+            <span class="info__item-span info__item-span_theme_bottom">Ипотечное кредитование</span>
+          </div>
+        </div>
+        <form class="description__form">
+          <input type="text" placeholder="Не нашли то, что искали? Воспользуйтесь умным поиском..." class="description__input">
+          <span class="description__hint">К примеру: <span class="description__mini-hint">ОСАГО, КАСКО, ВЭР</span></span>
+          <button type="button" class="description__figure"></button>
+        </form>
+      </section>
+    </main>
+   <footer class="footer">
+     <div class="footer__container">
+      <span class="footer__copyright">© 2002-2015 Страховое общество «ВСК»</span>
+      <span class="footer__span">Лицензия ФССН С №0621 77 от 19.01.2001</span>
+      <span class="footer__span">Вся информация на сайте носит рекомандательный характер и ни при каких условиях не является публичной офертой.</span>
+      <a href="#" target="_blank" class="footer__link">Политика конфиденциальности</a>
+     </div>
+    <div class="footer__social">
+      <a href="#" rel="noopener" target="_blank" class="link">
+        <img src="<%=require(`./images/fb.svg`).default%>" alt="fb" class="footer__social-icon">
+      </a>
+      <a href="#" rel="noopener" target="_blank" class="link">
+        <img src="<%=require(`./images/twitter.svg`).default%>" alt="twitter" class="footer__social-icon">
+      </a>
+      <a href="#" rel="noopener" target="_blank" class="link">
+        <img src="<%=require(`./images/vk.svg`).default%>" alt="vk" class="footer__social-icon">
+      </a>
+    </div>
+   </footer>
+  </div>
+  <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+</html>

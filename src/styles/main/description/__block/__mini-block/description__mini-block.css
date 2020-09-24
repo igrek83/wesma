@@ -1,0 +1,5 @@
+@import url(./__name/description__name.css);
+.description__mini-block {
+  display: flex;
+  flex-direction: column;
+}

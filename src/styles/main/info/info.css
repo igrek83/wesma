@@ -1,0 +1,10 @@
+@import url(./__navigation/info__navigation.css);
+@import url(./__container/info__container.css);
+.info {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding-bottom: 100px;
+}

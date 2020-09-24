@@ -1,0 +1,12 @@
+.cabinet__name {
+  font-size: 40px;
+  font-weight: 300;
+  color: #888888;
+  margin-bottom: 20px;
+}
+
+@media all and (max-width: 850px) {
+  .cabinet__name {
+    font-size: 32px;
+  }
+}

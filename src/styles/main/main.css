@@ -1,0 +1,9 @@
+@import url(./cabinet/cabinet.css);
+@import url(./info/info.css);
+@import url(./description/description.css);
+.main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}

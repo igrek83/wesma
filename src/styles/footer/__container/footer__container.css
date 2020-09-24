@@ -1,0 +1,7 @@
+@import url(./__copyright/footer__copyright.css);
+@import url(./__span/footer__span.css);
+@import url(./__link/footer__link.css);
+.footer__container {
+  display: flex;
+  flex-direction: column;
+}

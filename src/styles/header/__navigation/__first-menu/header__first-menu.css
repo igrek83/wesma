@@ -1,0 +1,15 @@
+.header__first-menu {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 16px 0;
+}
+
+@media all and (max-width: 1140px) {
+  .header__first-menu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,15 @@
+@import url(./__social/footer__social.css);
+@import url(./__container/footer__container.css);
+.footer {
+  width: 100%;
+  display: flex;
+   background-color: #f3f6f7;
+   padding: 45px 9%;
+}
+
+@media all and (max-width: 1300px) {
+  .footer {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}

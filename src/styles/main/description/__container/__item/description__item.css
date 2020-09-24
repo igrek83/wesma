@@ -1,0 +1,6 @@
+@import url(./__image/description__image.css);
+.description__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

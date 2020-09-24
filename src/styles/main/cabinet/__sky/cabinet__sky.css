@@ -1,0 +1,6 @@
+.cabinet__sky {
+  width: 100%;
+  height: 210px;
+  background-size: cover;
+  background-image: url(~images/sky.png);
+}

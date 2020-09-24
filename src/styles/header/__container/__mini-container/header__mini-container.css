@@ -1,0 +1,12 @@
+@import url(./__select/header__select.css);
+.header__mini-container {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+@media all and (max-width: 1140px) {
+  .header__mini-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

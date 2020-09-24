@@ -1,0 +1,16 @@
+@import url(./__item/description__item.css);
+.description__container {
+  display: grid;
+  grid-template-columns: repeat(4, 225px);
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+@media all and (max-width: 950px) {
+  .description__container {
+    grid-template-columns: repeat(2, 225px);
+    justify-content: space-around;
+    grid-gap: 32px;
+  }
+}

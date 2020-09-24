@@ -1,0 +1,7 @@
+@import url(./__figure/description__figure.css);
+.description__form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

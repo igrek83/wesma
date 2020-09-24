@@ -1,0 +1,16 @@
+.description__figure {
+  position: absolute;
+  border: 1px solid #fff;
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  background-image: url(~images/search.png);
+  background-size: cover;
+  top: 15px;
+  left: 15px;
+}
+
+.description__figure:focus, .description__figure:hover {
+  border: solid 1px #000;
+}

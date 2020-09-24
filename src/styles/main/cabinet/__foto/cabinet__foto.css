@@ -1,0 +1,8 @@
+.cabinet__foto {
+  position: absolute;
+  width: 165px;
+  height: 165px;
+  border-radius: 50%;
+  background-size: contain;
+  top: 100px;
+}

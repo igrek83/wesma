@@ -1,0 +1,22 @@
+@import url(./__container/description__container.css);
+@import url(./__block/description__block.css);
+@import url(./__button/description__button.css);
+@import url(./__form/description__form.css);
+@import url(./__input/description__input.css);
+@import url(./__hint/description__hint.css);
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #f3f6f7;
+  padding: 60px 9%;
+  border-bottom: 2px solid #b6b7b8;
+}
+
+@media all and (max-width: 1300px) {
+  .description {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}

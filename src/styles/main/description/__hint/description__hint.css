@@ -1,0 +1,6 @@
+@import url(./__mini-hint/description__mini-hint.css);
+.description__hint {
+  align-self: start;
+  color: #9b9c9c;
+  font-size: 12px;
+}

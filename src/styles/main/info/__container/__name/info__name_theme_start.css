@@ -1,0 +1,9 @@
+.info__name_theme_start {
+  margin-left: 95px;
+}
+
+@media all and (max-width: 935px) {
+  .info__name_theme_start {
+    margin-left: 8%;
+  }
+}

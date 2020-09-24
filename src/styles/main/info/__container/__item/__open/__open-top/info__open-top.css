@@ -1,0 +1,9 @@
+.info__open-top {
+  width: 9px;
+  height: 9px;
+  margin-left: 10px;
+  margin-top: 15px;
+  transform: rotate(45deg);
+  border-left: 3px solid #005ca9;
+  border-top: 3px solid #005ca9;
+}

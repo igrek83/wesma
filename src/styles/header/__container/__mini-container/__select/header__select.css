@@ -1,0 +1,17 @@
+.header__select {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #015dac;
+  width: 90px;
+  margin-right: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media all and (max-width: 1140px) {
+  .header__select {
+    order: 1;
+  }
+}

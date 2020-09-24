@@ -1,0 +1,7 @@
+.info__price {
+  position: relative;
+   font-size: 30px;
+   font-weight: 400;
+   color: #000;
+   bottom: 15px;
+}

@@ -1,0 +1,20 @@
+@import url(./__first-menu/header__first-menu.css);
+@import url(./__second-menu/header__second-menu.css);
+@import url(./__block/header__block.css);
+.header__navigation {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: linear-gradient(to right, #015dac, #0197d6, #018ecf);
+  color: #fff;
+  padding-left: 9%;
+  padding-right: 9%;
+}
+
+@media all and (max-width: 1300px) {
+  .header__navigation {
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}

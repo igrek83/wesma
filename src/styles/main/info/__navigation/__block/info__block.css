@@ -1,0 +1,17 @@
+@import url(./__title/info__title.css);
+@import url(./__image/info__image.css);
+.info__block {
+  display: flex;
+  padding: 20px 0;
+  border-top: solid 1px #dde8ec;
+  cursor: pointer;
+}
+
+.info__block:hover, .info__block:focus {
+  border-top: solid 1px #4bcaff;
+  outline: none;
+}
+
+.info__block:hover>.info__title, .info__block:focus>.info__title {
+  color: #000;
+}

@@ -1,0 +1,7 @@
+.description__image {
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  background-size: cover;
+  margin-bottom: 20px;
+}

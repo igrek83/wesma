@@ -1,0 +1,7 @@
+@import url(./__mini-container/info__mini-container.css);
+@import url(./__mini-container/info__mini-container_background_white.css);
+.info__third-block {
+  display: flex;
+  width: 100%;
+  padding-top: 20px;
+}

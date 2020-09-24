@@ -1,0 +1,6 @@
+@import url(./__price/info__price.css);
+@import url(./__rub/info__rub.css);
+.info__mini-block {
+  display: flex;
+  margin-left: auto;
+}

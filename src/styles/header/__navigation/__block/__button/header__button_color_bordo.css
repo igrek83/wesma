@@ -1,0 +1,10 @@
+.header__button_color_bordo {
+  color: #f177a2;
+  margin-right: 70px;
+}
+
+@media all and (max-width: 1140px) {
+  .header__button_color_bordo {
+    margin-right: 0;
+  }
+}

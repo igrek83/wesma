@@ -1,0 +1,19 @@
+@import url(./__name/info__name.css);
+@import url(./__name/info__name_theme_end.css);
+@import url(./__name/info__name_theme_start.css);
+@import url(./__item/info__item.css);
+.info__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 9%;
+  padding-right: 9%;
+  padding-top: 65px;
+}
+
+@media all and (max-width: 1300px) {
+  .header__container {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
